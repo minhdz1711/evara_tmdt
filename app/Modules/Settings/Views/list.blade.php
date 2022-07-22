@@ -186,7 +186,7 @@
                                                 <a href="javascript:void(0);"
                                                    class="btn btn-outline-danger btn-sm btn-close"
                                                    onclick="removeFileWithCKFinder('view_logo', 'website_logo')"><i
-                                                            class="fa fa-close"></i></a>
+                                                        class="fa fa-close"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -210,7 +210,7 @@
                                                 <a href="javascript:void(0);"
                                                    class="btn btn-outline-danger btn-sm btn-close"
                                                    onclick="removeFileWithCKFinder('view_favicon', 'website_favicon')"><i
-                                                            class="fa fa-close"></i></a>
+                                                        class="fa fa-close"></i></a>
                                             </div>
                                         </div>
                                     </div>

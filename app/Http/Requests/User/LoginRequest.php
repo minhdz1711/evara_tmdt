@@ -33,7 +33,7 @@ class LoginRequest extends FormRequest
     {
         return [
             'username' => 'Email',
-            'password'=>'Mật khẩu'
+            'password' => 'Mật khẩu'
         ];
     }
 }

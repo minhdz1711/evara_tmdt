@@ -19,7 +19,7 @@
     </div>
 </div> <!-- ...:::: End Breadcrumb Section:::... -->
 
-<!-- ...:::: Start Blog Section:::... -->
+<!-- ...:::: Start Category Section:::... -->
 <div class="blog-section">
     <div class="container">
         <div class="row ">
@@ -29,7 +29,7 @@
                     <div class="row">
                         @foreach($posts as $post)
                         <div class="col-lg-4 col-md-6 col-12">
-                            <!-- Start Blog Grid Single -->
+                            <!-- Start Category Grid Single -->
                             <div class="blog-feed-single">
                                 <a href="{{ $post->slug }}.h" class="blog-feed-img-link">
                                     <img src="{{ $post->images }}" alt="" class="blog-feed-img">
@@ -42,7 +42,7 @@
                                     <h5 class="blog-feed-link"><a href="{{ $post->slug }}.h">{{ substr($post->title,0,125) }}</a></h5>
                                 </div>
                             </div>
-                            <!-- End Blog Grid Single -->
+                            <!-- End Category Grid Single -->
                         </div>
                         @endforeach
 
@@ -56,4 +56,4 @@
             </div>
         </div>
     </div>
-</div> <!-- ...:::: End Blog Section:::... -->
+</div> <!-- ...:::: End Category Section:::... -->

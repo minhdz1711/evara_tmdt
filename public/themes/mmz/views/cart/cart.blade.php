@@ -29,7 +29,7 @@
         class="col-lg-12"
         style="text-align: center; margin-top: 100px; margin-bottom: 100px"
     >
-        <img src="../themes/bkweb/assets/images/icon/no-shopping-cart.jpg">
+        <img src="../themes/mmz/assets/images/icon/no-shopping-cart.jpg">
         <h3>Giỏ hàng của bạn không có sản phẩm nào!!!</h3>
         <div class="btn btn-primary">
             <a href="{{url('/')}}" style="color: #ffff">Mua hàng</a>

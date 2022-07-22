@@ -11,7 +11,6 @@ use App\Modules\Slide\Models\Slide;
 use Cache;
 
 
-
 class AppServiceProvider extends ServiceProvider
 {
     /**
@@ -33,7 +32,7 @@ class AppServiceProvider extends ServiceProvider
     {
         Schema::defaultStringLength(191);
         if (!app()->runningInConsole()) {
-           $settings = Setting::all()->pluck('value', 'key');
+            $settings = Setting::all()->pluck('value', 'key');
             View::share('settings', $settings);
 
 //

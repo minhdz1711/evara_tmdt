@@ -20,12 +20,12 @@
     </div>
 </div> <!-- ...:::: End Breadcrumb Section:::... -->
 
-<!-- ...:::: Start Blog Single Section:::... -->
+<!-- ...:::: Start Category Single Section:::... -->
 <div class="blog-single-section">
     <div class="container">
         <div class="row flex-column-reverse flex-lg-row">
             <div class="col-lg-8 offset-2">
-                <!-- Start Blog Single Content Area -->
+                <!-- Start Category Single Content Area -->
                 <div class="blog-single-wrapper">
                     <div class="blog-single-img">
                         <img class="img-fluid" src="{{ $post->images }}" alt="">
@@ -45,7 +45,7 @@
 {{--                            <li><a href="">white</a></li>--}}
 {{--                        </ul>--}}
 {{--                    </div>--}}
-                </div> <!-- End Blog Single Content Area -->
+                </div> <!-- End Category Single Content Area -->
 {{--                <div class="comment-area">--}}
 {{--                    <h4 class="mb-30">3 Comments</h4>--}}
 {{--                    <!-- Start - Review Comment -->--}}
@@ -159,4 +159,4 @@
             </div> <!-- End Shop Product Sorting Section  -->
         </div>
     </div>
-</div> <!-- ...:::: End Blog Single Section:::... -->
+</div> <!-- ...:::: End Category Single Section:::... -->
