@@ -6,7 +6,6 @@ use App\Modules\Product\Controllers\BrandsController;
 use App\Modules\Product\Controllers\WarehouseController;
 use App\Modules\Product\Controllers\ProductAttributesController;
 use App\Modules\Product\Controllers\AttributesItemController;
-use App\Modules\Product\Controllers\ProductFrontController;
 
 
 Route::group(['middleware' => ['admin'], 'as' => 'admin.', 'prefix' => 'admin'], function () {

@@ -4,12 +4,10 @@ namespace App\Modules\Dashboard\Controllers;
 
 use App\Http\Controllers\Admins\AdminController;
 use App\Models\User;
-use App\Modules\Membership\Models\Membership;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
-use App\Modules\Order\Models\Order;
 use DirectAdmin;
 
 class DashboardController extends AdminController

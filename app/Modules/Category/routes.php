@@ -1,7 +1,6 @@
 <?php
 
-use App\Modules\Blog\Controllers\BlogController;
-use App\Modules\Blog\Controllers\CategoryController;
+use App\Modules\Category\Controllers\CategoryController;
 
 Route::group(['middleware' => ['admin'], 'as' => 'admin.', 'prefix' => 'admin'], function () {
 
