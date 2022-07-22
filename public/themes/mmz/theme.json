@@ -1,0 +1,10 @@
+{
+    "slug": "mmz",
+    "name": "Web MMZ",
+    "author": "Minh DZ",
+    "email": "minsd319@gmail.com",
+    "description": "Giao diện web mmz",
+    "web": "https://mmz.com",
+    "license": "MIT",
+    "version": "1.0"
+}
