@@ -2,7 +2,7 @@
 
 namespace App\Modules\Post\Models;
 
-use App\Modules\Blog\Models\Category;
+use App\Modules\Category\Models\Category;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 

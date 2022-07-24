@@ -3,7 +3,7 @@
 namespace App\Modules\Post\Controllers;
 
 use App\Http\Controllers\Admins\AdminController;
-use App\Modules\Blog\Models\Category;
+use App\Modules\Category\Models\Category;
 use App\Modules\Post\Requests\Category\StoreRequest;
 use App\Modules\Post\Requests\Category\UpdateRequest;
 use Illuminate\Http\Request;

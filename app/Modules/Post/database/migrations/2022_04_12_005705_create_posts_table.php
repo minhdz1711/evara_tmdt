@@ -27,7 +27,6 @@ class CreatePostsTable extends Migration
             $table->bigInteger('view')->nullable()->default(0);
             $table->unsignedBigInteger('is_index')->default(0);
             $table->string('cate_product_id')->nullable();
-            $table->string('id_tag')->nullable();
             $table->foreign('id_user')->references('id')->on('users')->onDelete('cascade');
             $table->unique(['title', 'slug']);
             $table->timestamps();

@@ -4,7 +4,7 @@ namespace App\Modules\Post\Controllers;
 
 use App\Http\Controllers\Admins\AdminController;
 use App\Http\Controllers\Controller;
-use App\Modules\Blog\Models\Category;
+use App\Modules\Category\Models\Category;
 use App\Modules\Post\Models\Post;
 use App\Modules\Post\Requests\Post\StoreRequest;
 use App\Modules\Post\Requests\Post\UpdateRequest;
@@ -14,7 +14,6 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 use Auth;
-use phpDocumentor\Reflection\Types\Null_;
 
 class PostController extends AdminController
 {
