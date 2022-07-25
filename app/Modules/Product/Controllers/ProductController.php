@@ -32,38 +32,38 @@ class ProductController extends AdminController
             switch ($request->type) {
                 case "all":
                     $data = array_merge($data, [
-                        'products' => Product::select('id', 'images', 'title', 'id_user', 'is_active', 'is_hot', 'regular_price', 'sale_price', 'created_at', 'guarantee', 'quantity', 'view', 'number_sell', 'slug', 'brands_id')->orderBy('id', 'DESC')->paginate(10)
+                        'products' => Product::select('id', 'images', 'title', 'id_user', 'is_active', 'is_hot', 'regular_price', 'sale_price', 'created_at',  'quantity', 'view', 'number_sell', 'slug', 'brands_id')->orderBy('id', 'DESC')->paginate(10)
                     ]);
                     break;
                 case "title":
                     $data = array_merge($data, [
-                        'products' => Product::where('title', 'like', '%' . $request->keyword . '%')->orderBy('id', 'DESC')->select('id', 'images', 'title', 'id_user', 'is_active', 'is_hot', 'regular_price', 'sale_price', 'created_at', 'guarantee', 'quantity', 'view', 'number_sell', 'slug', 'brands_id')->paginate(10),
+                        'products' => Product::where('title', 'like', '%' . $request->keyword . '%')->orderBy('id', 'DESC')->select('id', 'images', 'title', 'id_user', 'is_active', 'is_hot', 'regular_price', 'sale_price', 'created_at', 'quantity', 'view', 'number_sell', 'slug', 'brands_id')->paginate(10),
                     ]);
                     break;
                 case "status":
                     if ($request->keyword == "Inactive") {
                         $data = array_merge($data, [
-                            'products' => Product::where('is_active', 0)->orderBy('id', 'DESC')->select('id', 'images', 'title', 'id_user', 'is_active', 'is_hot', 'regular_price', 'sale_price', 'created_at', 'guarantee', 'quantity', 'view', 'number_sell', 'slug', 'brands_id')->paginate(10),
+                            'products' => Product::where('is_active', 0)->orderBy('id', 'DESC')->select('id', 'images', 'title', 'id_user', 'is_active', 'is_hot', 'regular_price', 'sale_price', 'created_at', 'quantity', 'view', 'number_sell', 'slug', 'brands_id')->paginate(10),
                         ]);
                     } elseif ($request->keyword == "Active") {
                         $data = array_merge($data, [
-                            'products' => Product::where('is_active', 1)->orderBy('id', 'DESC')->select('id', 'images', 'title', 'id_user', 'is_active', 'is_hot', 'regular_price', 'sale_price', 'created_at', 'guarantee', 'quantity', 'view', 'number_sell', 'slug', 'brands_id')->paginate(10),
+                            'products' => Product::where('is_active', 1)->orderBy('id', 'DESC')->select('id', 'images', 'title', 'id_user', 'is_active', 'is_hot', 'regular_price', 'sale_price', 'created_at', 'quantity', 'view', 'number_sell', 'slug', 'brands_id')->paginate(10),
                         ]);
                     } else {
                         if ($request->get('keyword') != 0) {
                             $data = array_merge($data, [
-                                'products' => Product::where('title', 'like', '%' . $request->keyword . '%')->orderBy('id', 'DESC')->select('id', 'images', 'title', 'id_user', 'is_active', 'is_hot', 'regular_price', 'sale_price', 'created_at', 'guarantee', 'quantity', 'view', 'number_sell', 'slug', 'brands_id')->paginate(10),
+                                'products' => Product::where('title', 'like', '%' . $request->keyword . '%')->orderBy('id', 'DESC')->select('id', 'images', 'title', 'id_user', 'is_active', 'is_hot', 'regular_price', 'sale_price', 'created_at',  'quantity', 'view', 'number_sell', 'slug', 'brands_id')->paginate(10),
                             ]);
                         } else {
                             $data = array_merge($data, [
-                                'products' => Product::orderBy('id', 'DESC')->select('id', 'images', 'title', 'id_user', 'is_active', 'is_hot', 'regular_price', 'sale_price', 'created_at', 'guarantee', 'quantity', 'view', 'number_sell', 'slug', 'brands_id')->paginate(10),
+                                'products' => Product::orderBy('id', 'DESC')->select('id', 'images', 'title', 'id_user', 'is_active', 'is_hot', 'regular_price', 'sale_price', 'created_at', 'quantity', 'view', 'number_sell', 'slug', 'brands_id')->paginate(10),
                             ]);
                         }
                     }
                     break;
                 case "featured":
                     $data = array_merge($data, [
-                        'products' => Product::where('is_hot', 1)->where('title', 'like', '%' . $request->keyword . '%')->orderBy('id', 'DESC')->select('id', 'images', 'title', 'id_user', 'is_active', 'is_hot', 'regular_price', 'sale_price', 'created_at', 'guarantee', 'quantity', 'view', 'number_sell', 'slug', 'brands_id')->paginate(10),
+                        'products' => Product::where('is_hot', 1)->where('title', 'like', '%' . $request->keyword . '%')->orderBy('id', 'DESC')->select('id', 'images', 'title', 'id_user', 'is_active', 'is_hot', 'regular_price', 'sale_price', 'created_at', 'quantity', 'view', 'number_sell', 'slug', 'brands_id')->paginate(10),
                     ]);
                     break;
                 case "author":
@@ -71,14 +71,14 @@ class ProductController extends AdminController
                         'products' => Product::join('users', 'users.id', '=', 'products.id_user')
                             ->where('users.display_name', 'like', '%' . $request->keyword . '%')
                             ->orderBy('id', 'DESC')
-                            ->select('products.id', 'products.images', 'products.title', 'products.id_user', 'products.is_active', 'products.is_hot', 'products.regular_price', 'products.sale_price', 'products.created_at', 'guarantee', 'quantity', 'view', 'number_sell', 'slug', 'brands_id')
+                            ->select('products.id', 'products.images', 'products.title', 'products.id_user', 'products.is_active', 'products.is_hot', 'products.regular_price', 'products.sale_price', 'products.created_at', 'quantity', 'view', 'number_sell', 'slug', 'brands_id')
                             ->paginate(10),
                     ]);
                     break;
             }
         } else {
             $data = array_merge($data, [
-                'products' => Product::select('products.id', 'products.images', 'products.title', 'products.id_user', 'products.is_active', 'products.is_hot', 'products.regular_price', 'products.sale_price', 'products.created_at', 'guarantee', 'quantity', 'view', 'number_sell', 'slug', 'brands_id')->orderBy('id', 'DESC')->paginate(10)
+                'products' => Product::select('products.id', 'products.images', 'products.title', 'products.id_user', 'products.is_active', 'products.is_hot', 'products.regular_price', 'products.sale_price', 'products.created_at', 'quantity', 'view', 'number_sell', 'slug', 'brands_id')->orderBy('id', 'DESC')->paginate(10)
             ]);
         }
         return view('Product::Product.list')->with($data);
@@ -116,7 +116,7 @@ class ProductController extends AdminController
             if ($sale_price > $regular_price) {
                 $sale_price = 0;
             }
-            $data = array_merge($request->only(['title', 'quantity', 'brands_id', 'number_sell', 'order', 'guarantee', 'content', 'overview', 'seo_title', 'seo_description', 'seo_keyword', 'sku', 'link_view']), [
+            $data = array_merge($request->only(['title', 'quantity', 'brands_id', 'number_sell', 'order', 'content', 'overview', 'seo_title', 'seo_description', 'seo_keyword', 'sku', 'link_view']), [
                 'slug' => Str::slug($request->get('title')),
                 'images' => $this->getImages($request->get('images')),
                 'id_user' => \Auth::user()->id,
@@ -125,6 +125,26 @@ class ProductController extends AdminController
 //                'sale_price' => ($request->get('sale_price') != "") ? $request->get('sale_price') : 0
             ]);
             $product = Product::create($data);
+                // xử lý ảnh
+            $pro_image = $request->get('pro_image');
+            if (isset($product->id)) {
+                foreach ($images as $key => $imageData) {
+                    $patch = public_path('userfiles/images/');
+//                    $data = 'data:image/png;base64,AAAFBfj42Pj4';
+                    list($type, $imageData) = explode(';', $imageData);
+                    list(, $extension) = explode('/', $type);
+                    list(, $imageData) = explode(',', $imageData);
+                    $fileName = uniqid() . '.' . $extension;
+                    $imageData = base64_decode($imageData);
+                    file_put_contents($patch . $fileName, $imageData);
+
+                    if ($key == 0) {
+                        $product->pro_image = 'userfiles/images/' . $fileName;
+                        $product->update();
+                    }
+//
+                }
+            }
 
             $product_id = $product->id;
             if ($request->get('category_id')) {

@@ -60,16 +60,16 @@ class UserSeeder extends Seeder
         Permission::create(['name' => 'comment-update', 'group' => 'roles', 'display_name' => 'Sửa bình luận', 'guard_name' => 'admin', 'group_name' => 'Quản lý bình luận']);
         Permission::create(['name' => 'comment-delete', 'group' => 'roles', 'display_name' => 'Xoá bình luận', 'guard_name' => 'admin', 'group_name' => 'Quản lý bình luận']);
 
-        //payment
-        Permission::create(['name' => 'payment-list', 'group' => 'roles', 'display_name' => 'Xem ví điện tử', 'guard_name' => 'admin', 'group_name' => 'Quản lý ví điện tử']);
-        Permission::create(['name' => 'payment-update', 'group' => 'roles', 'display_name' => 'Sửa ví điện tử', 'guard_name' => 'admin', 'group_name' => 'Quản lý ví điện tử']);
-        Permission::create(['name' => 'payment-delete', 'group' => 'roles', 'display_name' => 'Xóa ví điện tử', 'guard_name' => 'admin', 'group_name' => 'Quản lý ví điện tử']);
+//        //payment
+//        Permission::create(['name' => 'payment-list', 'group' => 'roles', 'display_name' => 'Xem ví điện tử', 'guard_name' => 'admin', 'group_name' => 'Quản lý ví điện tử']);
+//        Permission::create(['name' => 'payment-update', 'group' => 'roles', 'display_name' => 'Sửa ví điện tử', 'guard_name' => 'admin', 'group_name' => 'Quản lý ví điện tử']);
+//        Permission::create(['name' => 'payment-delete', 'group' => 'roles', 'display_name' => 'Xóa ví điện tử', 'guard_name' => 'admin', 'group_name' => 'Quản lý ví điện tử']);
 
-        //partner
-        Permission::create(['name' => 'partner-list', 'group' => 'roles', 'display_name' => 'Xem đối tác kết nối', 'guard_name' => 'admin', 'group_name' => 'Quản lý đối tác']);
-        Permission::create(['name' => 'partner-create', 'group' => 'roles', 'display_name' => 'Thêm đối tác mới', 'guard_name' => 'admin', 'group_name' => 'Quản lý đối tác']);
-        Permission::create(['name' => 'partner-update', 'group' => 'roles', 'display_name' => 'Sửa đối tác', 'guard_name' => 'admin', 'group_name' => 'Quản lý đối tác']);
-        Permission::create(['name' => 'partner-history', 'group' => 'roles', 'display_name' => 'Xoá đối tác', 'guard_name' => 'admin', 'group_name' => 'Quản lý đối tác']);
+//        //partner
+//        Permission::create(['name' => 'partner-list', 'group' => 'roles', 'display_name' => 'Xem đối tác kết nối', 'guard_name' => 'admin', 'group_name' => 'Quản lý đối tác']);
+//        Permission::create(['name' => 'partner-create', 'group' => 'roles', 'display_name' => 'Thêm đối tác mới', 'guard_name' => 'admin', 'group_name' => 'Quản lý đối tác']);
+//        Permission::create(['name' => 'partner-update', 'group' => 'roles', 'display_name' => 'Sửa đối tác', 'guard_name' => 'admin', 'group_name' => 'Quản lý đối tác']);
+//        Permission::create(['name' => 'partner-history', 'group' => 'roles', 'display_name' => 'Xoá đối tác', 'guard_name' => 'admin', 'group_name' => 'Quản lý đối tác']);
 
         //user
         Permission::create(['name' => 'user-list', 'group' => 'roles', 'display_name' => 'Xem tài khoản', 'guard_name' => 'admin', 'group_name' => 'Quản lý tài khoản']);

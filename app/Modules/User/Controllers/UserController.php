@@ -99,6 +99,7 @@ class UserController extends AdminController
                 'password' => bcrypt($request->get('password'))
             ]);
             $user = User::create($data);
+            dd($user);
 
             //set permission
             $position = Config::showRoles($request->get('position'));

@@ -4,7 +4,7 @@
 
     <section class="content">
         <div class="container-fluid">
-            <form action="{{ route('admin.products.store') }}" method="POST">
+            <form action="{{ route('admin.products.store') }}" method="POST" >
                 @csrf
                 <div class="row">
                     <div class="col-12 col-md-9">
@@ -33,6 +33,22 @@
                                     <label for="">Nội dung mô tả</label>
                                     <textarea name="overview" class="form-control"
                                               rows="5">{{ old('overview') }}</textarea>
+                                </div>
+                                <div class="form-group">
+                                    <div class="template-3_img-preview">
+                                        <div class="template-3_img-preview">
+                                            <a class="" href="javascript:void(0)" onclick="$('#pro-image').click()">
+                                                <img id="logo-icon" class="imgPreview" src="https://demo.hoanglien.vn/images/no_picture.gif">
+                                                <p class="mb-0">
+                                                    (Click để tải ảnh hoặc kéo thả ảnh vào đây)
+                                                </p>
+                                            </a>
+                                            <input type="file" id="pro-image" name="pro-image[]" style="opacity: 0" class="form-control " multiple="">
+                                        </div>
+                                        <div class="preview-images-zone ui-sortable">
+
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div><!--content-->
@@ -179,7 +195,50 @@
     {{--    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">--}}
 
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(document).ready(function() {
+            document.getElementById('pro-image').addEventListener('change', readImage, false);
 
+            $( ".preview-images-zone" ).sortable();
+
+            $(document).on('click', '.image-cancel', function() {
+                let no = $(this).data('no');
+                $(".preview-image.preview-show-"+no).remove();
+            });
+        });
+        var num = 4;
+        function readImage() {
+            if (window.File && window.FileList && window.FileReader) {
+                var files = event.target.files; //FileList object
+                var output = $(".preview-images-zone");
+                for (let i = 0; i < files.length; i++) {
+                    var file = files[i];
+                    if (!file.type.match('image')) continue;
+
+                    var picReader = new FileReader();
+
+                    picReader.addEventListener('load', function (event) {
+                        var picFile = event.target;
+                        var html =  '<div class="preview-image preview-show-' + num + '">' +
+                            '<div class="image-cancel" data-no="' + num + '">X</div>' +
+                            '<div class="image-zone"><img id="pro-img-' + num + '" src="' + picFile.result + '"></div>' +
+                            // '<div class="tools-edit-image"><a href="javascript:void(0)" data-no="' + num + '" class="btn btn-light btn-edit-image">edit</a></div>' +
+                            ' <input type="hidden" value="'+picFile.result+'"  name="image[]" >'+
+                            '</div>';
+
+                        output.append(html);
+                        num = num + 1;
+                    });
+
+                    picReader.readAsDataURL(file);
+                }
+                $("#pro-image").val('');
+            } else {
+                console.log('Browser not support');
+            }
+        }
+
+    </script>
     <script>
         $("input[data-type='currency']").on({
             keyup: function () {

@@ -90,10 +90,10 @@ return [
             'model' => \App\Modules\Admin::class,
         ],
 
-        'memberships' => [
-            'driver' => 'eloquent',
-            'model' => \App\Entities\Membership::class,
-        ],
+//        'memberships' => [
+//            'driver' => 'eloquent',
+//            'model' => \App\Entities\Membership::class,
+//        ],
     ],
     /*
     |--------------------------------------------------------------------------

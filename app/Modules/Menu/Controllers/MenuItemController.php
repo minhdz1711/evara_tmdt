@@ -4,7 +4,7 @@ namespace App\Modules\Menu\Controllers;
 
 use App\Http\Controllers\Admins\AdminController;
 use App\Http\Controllers\Controller;
-use App\Modules\Blog\Models\Category;
+use App\Modules\Category\Models\Category;
 use App\Modules\Post\Models\Post;
 use App\Modules\Menu\Models\Menu;
 use App\Modules\Menu\Models\MenuItem;

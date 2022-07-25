@@ -27,34 +27,34 @@
                 </li>
                 <!--/end-->
 
-{{--                <!--post-->--}}
-{{--                <li class="nav-item">--}}
-{{--                    <a href="javascript:void(0)" class="nav-link">--}}
-{{--                        <i class="nav-icon fa-thumb-tack fa"></i>--}}
-{{--                        <p>Bài viết <i class="fa fa-angle-down right"></i></p>--}}
-{{--                    </a>--}}
-{{--                    <ul class="nav nav-treeview">--}}
-{{--                        <li class="nav-item">--}}
-{{--                            <a href="{{ route('admin.posts.index') }}" class="nav-link">--}}
-{{--                                <i class="fa fa-angle-right  nav-icon"></i>--}}
-{{--                                <p>Tất cả bài viết</p>--}}
-{{--                            </a>--}}
-{{--                        </li>--}}
-{{--                        <li class="nav-item">--}}
-{{--                            <a href="{{ route('admin.posts.create') }}" class="nav-link">--}}
-{{--                                <i class="fa fa-angle-right  nav-icon"></i>--}}
-{{--                                <p>Thêm bài viết mới</p>--}}
-{{--                            </a>--}}
-{{--                        </li>--}}
-{{--                        <li class="nav-item">--}}
-{{--                            <a href="{{ route('admin.post-categories.index') }}" class="nav-link">--}}
-{{--                                <i class="fa fa-angle-right  nav-icon"></i>--}}
-{{--                                <p>Danh mục bài viết</p>--}}
-{{--                            </a>--}}
-{{--                        </li>--}}
-{{--                    </ul>--}}
-{{--                </li>--}}
-{{--                <!--/end post-->--}}
+                <!--post-->
+                <li class="nav-item">
+                    <a href="javascript:void(0)" class="nav-link">
+                        <i class="nav-icon fa-thumb-tack fa"></i>
+                        <p>Bài viết <i class="fa fa-angle-down right"></i></p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="{{ route('admin.posts.index') }}" class="nav-link">
+                                <i class="fa fa-angle-right  nav-icon"></i>
+                                <p>Tất cả bài viết</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('admin.posts.create') }}" class="nav-link">
+                                <i class="fa fa-angle-right  nav-icon"></i>
+                                <p>Thêm bài viết mới</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('admin.post-categories.index') }}" class="nav-link">
+                                <i class="fa fa-angle-right  nav-icon"></i>
+                                <p>Danh mục bài viết</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!--/end post-->
 
                 <!--product-->
                 <li class="nav-item">
@@ -107,52 +107,14 @@
 {{--                </li>--}}
 {{--                <!--end-page-->--}}
 
-{{--                <!--video-->--}}
-{{--                <li class="nav-item">--}}
-{{--                    <a href="javascript:void(0)" class="nav-link">--}}
-{{--                        <i class="nav-icon fa-video-camera fa"></i>--}}
-{{--                        <p>Video <i class="fa fa-angle-down right"></i></p>--}}
-{{--                    </a>--}}
-{{--                    <ul class="nav nav-treeview">--}}
-{{--                        <li class="nav-item">--}}
-{{--                            <a href="{{ route('admin.videos.index') }}" class="nav-link">--}}
-{{--                                <i class="fa fa-angle-right  nav-icon"></i>--}}
-{{--                                <p>Tất cả video</p>--}}
-{{--                            </a>--}}
-{{--                        </li>--}}
-{{--                        <li class="nav-item">--}}
-{{--                            <a href="{{ route('admin.videos.create') }}" class="nav-link">--}}
-{{--                                <i class="fa fa-angle-right  nav-icon"></i>--}}
-{{--                                <p>Thêm video mới</p>--}}
-{{--                            </a>--}}
-{{--                        </li>--}}
-{{--                        <li class="nav-item">--}}
-{{--                            <a href="{{ route('admin.video-categories.index') }}" class="nav-link">--}}
-{{--                                <i class="fa fa-angle-right  nav-icon"></i>--}}
-{{--                                <p>Danh mục video</p>--}}
-{{--                            </a>--}}
-{{--                        </li>--}}
-{{--                    </ul>--}}
-{{--                </li>--}}
-{{--                <!--/end video-->--}}
-
-{{--                <!--media-->--}}
-{{--                <li class="nav-item has-treeview">--}}
-{{--                    <a href="{{ route('admin.media') }}" class="nav-link">--}}
-{{--                        <i class="nav-icon fa fa-picture-o" aria-hidden="true"></i>--}}
-{{--                        <p>Thư viện</p>--}}
-{{--                    </a>--}}
-{{--                </li>--}}
-{{--                <!--end-media-->--}}
-
-{{--                <!--product-->--}}
-{{--                <li class="nav-item">--}}
-{{--                    <a href="{{ route('admin.warehouse.index') }}" class="nav-link">--}}
-{{--                        <i class="nav-icon fa fa-shopping-cart"></i>--}}
-{{--                        <p>Quản lý kho hàng </p>--}}
-{{--                    </a>--}}
-{{--                </li>--}}
-{{--                <!--product-->--}}
+                <!--product-->
+                <li class="nav-item">
+                    <a href="{{ route('admin.warehouse.index') }}" class="nav-link">
+                        <i class="nav-icon fa fa-shopping-cart"></i>
+                        <p>Quản lý kho hàng </p>
+                    </a>
+                </li>
+                <!--product-->
 
 {{--                <!--order-->--}}
 {{--                <li class="nav-item has-treeview">--}}
@@ -164,57 +126,57 @@
 {{--                <!--end-order-->--}}
 
 
-{{--                <!--theme-->--}}
-{{--                <li class="nav-item">--}}
-{{--                    <a href="#" class="nav-link">--}}
-{{--                        <i class="nav-icon fa fa-paw"></i>--}}
-{{--                        <p>Giao diện <i class="fa fa-angle-down right"></i></p>--}}
-{{--                    </a>--}}
-{{--                    <ul class="nav nav-treeview">--}}
-{{--                        <li class="nav-item">--}}
-{{--                            <a href="javascript:void(0);" class="nav-link">--}}
-{{--                                <i class="fa fa-angle-right  nav-icon"></i>--}}
-{{--                                <p>Menu <i class="fa fa-angle-down right"></i></p>--}}
-{{--                            </a>--}}
-{{--                            <ul class="nav nav-treeview">--}}
-{{--                                <li class="nav-item">--}}
-{{--                                    <a href="{{ route('admin.menus.index') }}" class="nav-link">--}}
-{{--                                        <i class="fa fa-angle-right  nav-icon"></i>--}}
-{{--                                        <p>Tất cả menu</p>--}}
-{{--                                    </a>--}}
-{{--                                </li>--}}
-{{--                                <li class="nav-item">--}}
-{{--                                    <a href="{{ route('admin.menu-positions.index') }}" class="nav-link">--}}
-{{--                                        <i class="fa fa-angle-right  nav-icon"></i>--}}
-{{--                                        <p>Vị trí menu</p>--}}
-{{--                                    </a>--}}
-{{--                                </li>--}}
-{{--                            </ul>--}}
-{{--                        </li>--}}
-{{--                        <li class="nav-item">--}}
-{{--                            <a href="{{ route('admin.slides.index') }}" class="nav-link">--}}
-{{--                                <i class="fa fa-angle-right  nav-icon"></i>--}}
-{{--                                <p>Trình diễn ảnh</p>--}}
-{{--                            </a>--}}
-{{--                        </li>--}}
-{{--                        <li class="nav-item">--}}
-{{--                            <a href="{{ route('admin.banners.index') }}" class="nav-link">--}}
-{{--                                <i class="fa fa-angle-right  nav-icon"></i>--}}
-{{--                                <p>Cấu hình banner</p>--}}
-{{--                            </a>--}}
-{{--                        </li>--}}
-{{--                    </ul>--}}
-{{--                </li>--}}
-{{--                <!--/end theme-->--}}
+                <!--theme-->
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fa fa-paw"></i>
+                        <p>Giao diện <i class="fa fa-angle-down right"></i></p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="javascript:void(0);" class="nav-link">
+                                <i class="fa fa-angle-right  nav-icon"></i>
+                                <p>Menu <i class="fa fa-angle-down right"></i></p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="{{ route('admin.menus.index') }}" class="nav-link">
+                                        <i class="fa fa-angle-right  nav-icon"></i>
+                                        <p>Tất cả menu</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{ route('admin.menu-positions.index') }}" class="nav-link">
+                                        <i class="fa fa-angle-right  nav-icon"></i>
+                                        <p>Vị trí menu</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('admin.slides.index') }}" class="nav-link">
+                                <i class="fa fa-angle-right  nav-icon"></i>
+                                <p>Trình diễn ảnh</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('admin.banners.index') }}" class="nav-link">
+                                <i class="fa fa-angle-right  nav-icon"></i>
+                                <p>Cấu hình banner</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!--/end theme-->
 
-{{--                <!--comment-->--}}
-{{--                <li class="nav-item has-treeview">--}}
-{{--                    <a href="{{ route('admin.comments.index') }}" class="nav-link">--}}
-{{--                        <i class="nav-icon fa fa-comments" aria-hidden="true"></i>--}}
-{{--                        <p>Bình luận</p>--}}
-{{--                    </a>--}}
-{{--                </li>--}}
-{{--                <!--end-comment-->--}}
+                <!--comment-->
+                <li class="nav-item has-treeview">
+                    <a href="{{ route('admin.comments.index') }}" class="nav-link">
+                        <i class="nav-icon fa fa-comments" aria-hidden="true"></i>
+                        <p>Bình luận</p>
+                    </a>
+                </li>
+                <!--end-comment-->
 
 {{--                <!--payment-->--}}
 {{--                <li class="nav-item has-treeview">--}}
@@ -226,54 +188,54 @@
 {{--                <!--end payment-->--}}
 
 
-{{--                <!--account-->--}}
-{{--                <li class="nav-item has-treeview">--}}
-{{--                    <a href="javascript:void(0)" id="users" class="nav-link">--}}
-{{--                        <i class="nav-icon fa fa-users"></i>--}}
-{{--                        <p>Tài khoản<i class="right fa fa-angle-down"></i></p>--}}
-{{--                    </a>--}}
-{{--                    <ul class="nav nav-treeview">--}}
-{{--                        <li class="nav-item">--}}
-{{--                            <a href="{{ route('admin.users.index') }}" class="nav-link">--}}
-{{--                                <i class="fa fa-angle-right  nav-icon"></i>--}}
-{{--                                <p>Tài khoản quản trị</p>--}}
-{{--                            </a>--}}
-{{--                        </li>--}}
-{{--                        <li class="nav-item">--}}
-{{--                            <a href="{{ route('admin.memberships.index') }}" class="nav-link">--}}
-{{--                                <i class="fa fa-angle-right  nav-icon"></i>--}}
-{{--                                <p>Tài khoản người dùng</p>--}}
-{{--                            </a>--}}
-{{--                        </li>--}}
-{{--                        <li class="nav-item">--}}
-{{--                            <a href="{{ route('admin.roles.index') }}" class="nav-link">--}}
-{{--                                <i class="fa fa-angle-right  nav-icon"></i>--}}
-{{--                                <p>Phân quyền</p>--}}
-{{--                            </a>--}}
-{{--                        </li>--}}
-{{--                        <li class="nav-item">--}}
-{{--                            <a href="{{ route('admin.users.logs') }}" class="nav-link">--}}
-{{--                                <i class="fa fa-angle-right  nav-icon"></i>--}}
-{{--                                <p>Lịch sử đăng nhập <i class="right fa fa-angle-down"></i></p>--}}
-{{--                            </a>--}}
-{{--                            <ul class="nav nav-treeview">--}}
-{{--                                <li class="nav-item">--}}
-{{--                                    <a href="{{ route('admin.users.logs') }}" class="nav-link">--}}
-{{--                                        <i class="fa fa-angle-right  nav-icon"></i>--}}
-{{--                                        <p>Lịch sử quản trị</p>--}}
-{{--                                    </a>--}}
-{{--                                </li>--}}
-{{--                                <li class="nav-item">--}}
-{{--                                    <a href="{{ route('admin.memberships.logs') }}" class="nav-link">--}}
-{{--                                        <i class="fa fa-angle-right  nav-icon"></i>--}}
-{{--                                        <p>Lịch sử người dùng</p>--}}
-{{--                                    </a>--}}
-{{--                                </li>--}}
-{{--                            </ul>--}}
-{{--                        </li>--}}
-{{--                    </ul>--}}
-{{--                </li>--}}
-{{--                <!--end account-->--}}
+                <!--account-->
+                <li class="nav-item has-treeview">
+                    <a href="javascript:void(0)" id="users" class="nav-link">
+                        <i class="nav-icon fa fa-users"></i>
+                        <p>Tài khoản<i class="right fa fa-angle-down"></i></p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="{{ route('admin.users.index') }}" class="nav-link">
+                                <i class="fa fa-angle-right  nav-icon"></i>
+                                <p>Tài khoản quản trị</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('admin.memberships.index') }}" class="nav-link">
+                                <i class="fa fa-angle-right  nav-icon"></i>
+                                <p>Tài khoản người dùng</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('admin.roles.index') }}" class="nav-link">
+                                <i class="fa fa-angle-right  nav-icon"></i>
+                                <p>Phân quyền</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('admin.users.logs') }}" class="nav-link">
+                                <i class="fa fa-angle-right  nav-icon"></i>
+                                <p>Lịch sử đăng nhập <i class="right fa fa-angle-down"></i></p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="{{ route('admin.users.logs') }}" class="nav-link">
+                                        <i class="fa fa-angle-right  nav-icon"></i>
+                                        <p>Lịch sử quản trị</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{ route('admin.memberships.logs') }}" class="nav-link">
+                                        <i class="fa fa-angle-right  nav-icon"></i>
+                                        <p>Lịch sử người dùng</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <!--end account-->
 
                 <!--setting-->
                 @if(\Auth::user()->can('setting-list'))

@@ -29,6 +29,7 @@ class CreateProductsTable extends Migration
             $table->bigInteger('sale_price')->default(0);
             $table->string('sku')->nullable();
             $table->string('images', 191)->nullable();
+            $table->string('pro_image',191)->nullable();
             $table->unsignedTinyInteger('is_active')->default(1);
             $table->unsignedTinyInteger('is_instock')->default(1);
             $table->unsignedTinyInteger('is_hot')->default(0);
