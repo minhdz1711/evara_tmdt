@@ -2,7 +2,7 @@
     <div class="container">
         <div class="header-wrap header-space-between position-relative">
             <div class="logo logo-width-1 d-block d-lg-none">
-                <a href="index.html"><img src="assets/imgs/theme/logo.svg" alt="logo"></a>
+                <a href="index.html"><img src="themes/mmz/assets/imgs/theme/logo.svg" alt="logo"></a>
             </div>
             <div class="header-nav d-none d-lg-flex">
                 <div class="main-categori-wrap d-none d-lg-block">
@@ -47,7 +47,7 @@
                                         </li>
                                         <li class="mega-menu-col col-lg-5">
                                             <div class="header-banner2">
-                                                <img src="assets/imgs/banner/menu-banner-2.jpg" alt="menu_banner1">
+                                                <img src="themes/mmz/assets/imgs/banner/menu-banner-2.jpg" alt="menu_banner1">
                                                 <div class="banne_info">
                                                     <h6>10% Off</h6>
                                                     <h4>New Arrival</h4>
@@ -55,7 +55,7 @@
                                                 </div>
                                             </div>
                                             <div class="header-banner2">
-                                                <img src="assets/imgs/banner/menu-banner-3.jpg" alt="menu_banner2">
+                                                <img src="themes/mmz/assets/imgs/banner/menu-banner-3.jpg" alt="menu_banner2">
                                                 <div class="banne_info">
                                                     <h6>15% Off</h6>
                                                     <h4>Hot Deals</h4>
@@ -101,7 +101,7 @@
                                         </li>
                                         <li class="mega-menu-col col-lg-5">
                                             <div class="header-banner2">
-                                                <img src="assets/imgs/banner/menu-banner-4.jpg" alt="menu_banner1">
+                                                <img src="themes/mmz/assets/imgs/banner/menu-banner-4.jpg" alt="menu_banner1">
                                                 <div class="banne_info">
                                                     <h6>10% Off</h6>
                                                     <h4>New Arrival</h4>
@@ -148,7 +148,7 @@
                                         </li>
                                         <li class="mega-menu-col col-lg-5">
                                             <div class="header-banner2">
-                                                <img src="assets/imgs/banner/menu-banner-5.jpg" alt="menu_banner1">
+                                                <img src="themes/mmz/assets/imgs/banner/menu-banner-5.jpg" alt="menu_banner1">
                                                 <div class="banne_info">
                                                     <h6>10% Off</h6>
                                                     <h4>New Arrival</h4>
@@ -156,7 +156,7 @@
                                                 </div>
                                             </div>
                                             <div class="header-banner2">
-                                                <img src="assets/imgs/banner/menu-banner-6.jpg" alt="menu_banner2">
+                                                <img src="themes/mmz/assets/imgs/banner/menu-banner-6.jpg" alt="menu_banner2">
                                                 <div class="banne_info">
                                                     <h6>15% Off</h6>
                                                     <h4>Hot Deals</h4>
@@ -320,20 +320,20 @@
                 <div class="header-action-2">
                     <div class="header-action-icon-2">
                         <a href="shop-wishlist.html">
-                            <img alt="Evara" src="assets/imgs/theme/icons/icon-heart.svg">
+                            <img alt="Evara" src="themes/mmz/assets/imgs/theme/icons/icon-heart.svg">
                             <span class="pro-count white">4</span>
                         </a>
                     </div>
                     <div class="header-action-icon-2">
                         <a class="mini-cart-icon" href="shop-cart.html">
-                            <img alt="Evara" src="assets/imgs/theme/icons/icon-cart.svg">
+                            <img alt="Evara" src="themes/mmz/assets/imgs/theme/icons/icon-cart.svg">
                             <span class="pro-count white">2</span>
                         </a>
                         <div class="cart-dropdown-wrap cart-dropdown-hm2">
                             <ul>
                                 <li>
                                     <div class="shopping-cart-img">
-                                        <a href="shop-product-right.html"><img alt="Evara" src="assets/imgs/shop/thumbnail-3.jpg"></a>
+                                        <a href="shop-product-right.html"><img alt="Evara" src="themes/mmz/assets/imgs/shop/thumbnail-3.jpg"></a>
                                     </div>
                                     <div class="shopping-cart-title">
                                         <h4><a href="shop-product-right.html">Plain Striola Shirts</a></h4>
@@ -345,7 +345,7 @@
                                 </li>
                                 <li>
                                     <div class="shopping-cart-img">
-                                        <a href="shop-product-right.html"><img alt="Evara" src="assets/imgs/shop/thumbnail-4.jpg"></a>
+                                        <a href="shop-product-right.html"><img alt="Evara" src="themes/mmz/assets/imgs/shop/thumbnail-4.jpg"></a>
                                     </div>
                                     <div class="shopping-cart-title">
                                         <h4><a href="shop-product-right.html">Macbook Pro 2022</a></h4>

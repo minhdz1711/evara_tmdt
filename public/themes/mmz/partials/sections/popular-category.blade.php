@@ -6,7 +6,7 @@
             <div class="carausel-6-columns" id="carausel-6-columns">
                 <div class="card-1">
                     <figure class=" img-hover-scale overflow-hidden">
-                        <a href="shop-grid-right.html"><img src="assets/imgs/shop/category-thumb-1.jpg" alt=""></a>
+                        <a href="shop-grid-right.html"><img src="themes/mmz/assets/imgs/shop/category-thumb-1.jpg" alt=""></a>
                     </figure>
                     <h5><a href="shop-grid-right.html">T-Shirt</a></h5>
                 </div>

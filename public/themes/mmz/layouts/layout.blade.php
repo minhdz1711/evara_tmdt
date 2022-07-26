@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    @partial('modal')
+
 
     @partial('header')
 

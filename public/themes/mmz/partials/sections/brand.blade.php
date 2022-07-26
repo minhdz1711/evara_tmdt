@@ -5,25 +5,25 @@
             <div class="slider-arrow slider-arrow-2 carausel-6-columns-arrow" id="carausel-6-columns-3-arrows"></div>
             <div class="carausel-6-columns text-center" id="carausel-6-columns-3">
                 <div class="brand-logo">
-                    <img class="img-grey-hover" src="assets/imgs/banner/brand-1.png" alt="">
+                    <img class="img-grey-hover" src="themes/mmz/assets/imgs/banner/brand-1.png" alt="">
                 </div>
                 <div class="brand-logo">
-                    <img class="img-grey-hover" src="assets/imgs/banner/brand-2.png" alt="">
+                    <img class="img-grey-hover" src="themes/mmz/assets/imgs/banner/brand-2.png" alt="">
                 </div>
                 <div class="brand-logo">
-                    <img class="img-grey-hover" src="assets/imgs/banner/brand-3.png" alt="">
+                    <img class="img-grey-hover" src="themes/mmz/assets/imgs/banner/brand-3.png" alt="">
                 </div>
                 <div class="brand-logo">
-                    <img class="img-grey-hover" src="assets/imgs/banner/brand-4.png" alt="">
+                    <img class="img-grey-hover" src="themes/mmz/assets/imgs/banner/brand-4.png" alt="">
                 </div>
                 <div class="brand-logo">
-                    <img class="img-grey-hover" src="assets/imgs/banner/brand-5.png" alt="">
+                    <img class="img-grey-hover" src="themes/mmz/assets/imgs/banner/brand-5.png" alt="">
                 </div>
                 <div class="brand-logo">
-                    <img class="img-grey-hover" src="assets/imgs/banner/brand-6.png" alt="">
+                    <img class="img-grey-hover" src="themes/mmz/assets/imgs/banner/brand-6.png" alt="">
                 </div>
                 <div class="brand-logo">
-                    <img class="img-grey-hover" src="assets/imgs/banner/brand-3.png" alt="">
+                    <img class="img-grey-hover" src="themes/mmz/assets/imgs/banner/brand-3.png" alt="">
                 </div>
             </div>
         </div>

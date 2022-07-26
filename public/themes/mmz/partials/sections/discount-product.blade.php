@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 mb-sm-5 mb-md-0">
                 <div class="banner-img wow fadeIn animated mb-md-4 mb-lg-0">
-                    <img src="assets/imgs/banner/banner-10.jpg" alt="">
+                    <img src="themes/mmz/assets/imgs/banner/banner-10.jpg" alt="">
                     <div class="banner-text">
                         <span>Shoes Zone</span>
                         <h4>Save 17% on <br>All Items</h4>
@@ -16,7 +16,7 @@
                 <div class="product-list-small wow fadeIn animated">
                     <article class="row align-items-center">
                         <figure class="col-md-4 mb-0">
-                            <a href="shop-product-right.html"><img src="assets/imgs/shop/thumbnail-3.jpg" alt=""></a>
+                            <a href="shop-product-right.html"><img src="themes/mmz/assets/imgs/shop/thumbnail-3.jpg" alt=""></a>
                         </figure>
                         <div class="col-md-8 mb-0">
                             <h4 class="title-small">
@@ -30,7 +30,7 @@
                     </article>
                     <article class="row align-items-center">
                         <figure class="col-md-4 mb-0">
-                            <a href="shop-product-right.html"><img src="assets/imgs/shop/thumbnail-4.jpg" alt=""></a>
+                            <a href="shop-product-right.html"><img src="themes/mmz/assets/imgs/shop/thumbnail-4.jpg" alt=""></a>
                         </figure>
                         <div class="col-md-8 mb-0">
                             <h4 class="title-small">
@@ -44,7 +44,7 @@
                     </article>
                     <article class="row align-items-center">
                         <figure class="col-md-4 mb-0">
-                            <a href="shop-product-right.html"><img src="assets/imgs/shop/thumbnail-5.jpg" alt=""></a>
+                            <a href="shop-product-right.html"><img src="themes/mmz/assets/imgs/shop/thumbnail-5.jpg" alt=""></a>
                         </figure>
                         <div class="col-md-8 mb-0">
                             <h4 class="title-small">
@@ -63,7 +63,7 @@
                 <div class="product-list-small wow fadeIn animated">
                     <article class="row align-items-center">
                         <figure class="col-md-4 mb-0">
-                            <a href="shop-product-right.html"><img src="assets/imgs/shop/thumbnail-6.jpg" alt=""></a>
+                            <a href="shop-product-right.html"><img src="themes/mmz/assets/imgs/shop/thumbnail-6.jpg" alt=""></a>
                         </figure>
                         <div class="col-md-8 mb-0">
                             <h4 class="title-small">
@@ -77,7 +77,7 @@
                     </article>
                     <article class="row align-items-center">
                         <figure class="col-md-4 mb-0">
-                            <a href="shop-product-right.html"><img src="assets/imgs/shop/thumbnail-7.jpg" alt=""></a>
+                            <a href="shop-product-right.html"><img src="themes/mmz/assets/imgs/shop/thumbnail-7.jpg" alt=""></a>
                         </figure>
                         <div class="col-md-8 mb-0">
                             <h4 class="title-small">
@@ -91,7 +91,7 @@
                     </article>
                     <article class="row align-items-center">
                         <figure class="col-md-4 mb-0">
-                            <a href="shop-product-right.html"><img src="assets/imgs/shop/thumbnail-8.jpg" alt=""></a>
+                            <a href="shop-product-right.html"><img src="themes/mmz/assets/imgs/shop/thumbnail-8.jpg" alt=""></a>
                         </figure>
                         <div class="col-md-8 mb-0">
                             <h4 class="title-small">
@@ -110,7 +110,7 @@
                 <div class="product-list-small wow fadeIn animated">
                     <article class="row align-items-center">
                         <figure class="col-md-4 mb-0">
-                            <a href="shop-product-right.html"><img src="assets/imgs/shop/thumbnail-9.jpg" alt=""></a>
+                            <a href="shop-product-right.html"><img src="themes/mmz/assets/imgs/shop/thumbnail-9.jpg" alt=""></a>
                         </figure>
                         <div class="col-md-8 mb-0">
                             <h4 class="title-small">
@@ -124,7 +124,7 @@
                     </article>
                     <article class="row align-items-center">
                         <figure class="col-md-4 mb-0">
-                            <a href="shop-product-right.html"><img src="assets/imgs/shop/thumbnail-1.jpg" alt=""></a>
+                            <a href="shop-product-right.html"><img src="themes/mmz/assets/imgs/shop/thumbnail-1.jpg" alt=""></a>
                         </figure>
                         <div class="col-md-8 mb-0">
                             <h4 class="title-small">

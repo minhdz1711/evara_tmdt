@@ -10,7 +10,8 @@ Route::group(['middleware' => $middleware, 'module' => 'Frontend'], function () 
     //show home
     Route::get('/', ['as' => 'home', IndexController::class, 'index'])->name('index');
     // product detail
-    Route::get('/san-pham/{product_slug}.html', [IndexController::class, 'viewProduct'])->name('Product.viewProduct');
+    Route::get('/detail', [IndexController::class, 'viewProduct'])->name('Product.viewProduct');
+//    Route::get('/san-pham/{product_slug}.html', [IndexController::class, 'viewProduct'])->name('Product.viewProduct');
     //post
     Route::get('/bai-viet', [IndexController::class, 'viewPosts'])->name('Post.viewPosts');
     // post detail

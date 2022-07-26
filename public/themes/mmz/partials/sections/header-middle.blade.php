@@ -2,7 +2,7 @@
     <div class="container">
         <div class="header-wrap">
             <div class="logo logo-width-1">
-                <a href="index.html"><img src="assets/imgs/theme/logo.svg" alt="logo"></a>
+                <a href="index.html"><img src="{{ (@$settings['website_logo']!=null)? url(@$settings['website_logo']):"themes/mmz/assets/imgs/theme/logo.svg"}}" alt="logo"></a>
             </div>
             <div class="header-right">
                 <div class="search-style-2">
@@ -27,20 +27,20 @@
                     <div class="header-action-2">
                         <div class="header-action-icon-2">
                             <a href="shop-wishlist.html">
-                                <img class="svgInject" alt="Evara" src="assets/imgs/theme/icons/icon-heart.svg">
+                                <img class="svgInject" alt="Evara" src="themes/mmz/assets/imgs/theme/icons/icon-heart.svg">
                                 <span class="pro-count blue">4</span>
                             </a>
                         </div>
                         <div class="header-action-icon-2">
                             <a class="mini-cart-icon" href="shop-cart.html">
-                                <img alt="Evara" src="assets/imgs/theme/icons/icon-cart.svg">
+                                <img alt="Evara" src="themes/mmz/assets/imgs/theme/icons/icon-cart.svg">
                                 <span class="pro-count blue">2</span>
                             </a>
                             <div class="cart-dropdown-wrap cart-dropdown-hm2">
                                 <ul>
                                     <li>
                                         <div class="shopping-cart-img">
-                                            <a href="shop-product-right.html"><img alt="Evara" src="assets/imgs/shop/thumbnail-3.jpg"></a>
+                                            <a href="shop-product-right.html"><img alt="Evara" src="themes/mmz/assets/imgs/shop/thumbnail-3.jpg"></a>
                                         </div>
                                         <div class="shopping-cart-title">
                                             <h4><a href="shop-product-right.html">Daisy Casual Bag</a></h4>
@@ -52,7 +52,7 @@
                                     </li>
                                     <li>
                                         <div class="shopping-cart-img">
-                                            <a href="shop-product-right.html"><img alt="Evara" src="assets/imgs/shop/thumbnail-2.jpg"></a>
+                                            <a href="shop-product-right.html"><img alt="Evara" src="themes/mmz/assets/imgs/shop/thumbnail-2.jpg"></a>
                                         </div>
                                         <div class="shopping-cart-title">
                                             <h4><a href="shop-product-right.html">Corduroy Shirts</a></h4>

@@ -35,12 +35,11 @@ class AppServiceProvider extends ServiceProvider
             $settings = Setting::all()->pluck('value', 'key');
             View::share('settings', $settings);
 
-//
-//            $banner = Banner::where('is_active', 1)->where('order', 1)->select('title', 'images')->get();
-//            View::share('banner', $banner);
-//
-//            $slides = Slide::where('is_active', 1)->select('title', 'link', 'images')->get();
-//            View::share('slides', $slides);
+            $banner = Banner::where('is_active', 1)->where('order', 1)->select('title', 'images')->get();
+            View::share('banner', $banner);
+
+            $slides = Slide::where('is_active', 1)->select('title', 'link', 'images')->get();
+            View::share('slides', $slides);
 
         }
         Schema::defaultStringLength(191);

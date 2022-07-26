@@ -1,4 +1,6 @@
+@sections('modal')
 <main class="main">
+
     <!-- start slide-->
     @sections('slide')
     <!-- end slide-->
@@ -7,37 +9,37 @@
             <div class="row">
                 <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
                     <div class="banner-features wow fadeIn animated hover-up">
-                        <img src="assets/imgs/theme/icons/feature-1.png" alt="">
+                        <img src="themes/mmz/assets/imgs/theme/icons/feature-1.png" alt="">
                         <h4 class="bg-1">Free Shipping</h4>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
                     <div class="banner-features wow fadeIn animated hover-up">
-                        <img src="assets/imgs/theme/icons/feature-2.png" alt="">
+                        <img src="themes/mmz/assets/imgs/theme/icons/feature-2.png" alt="">
                         <h4 class="bg-3">Online Order</h4>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
                     <div class="banner-features wow fadeIn animated hover-up">
-                        <img src="assets/imgs/theme/icons/feature-3.png" alt="">
+                        <img src="themes/mmz/assets/imgs/theme/icons/feature-3.png" alt="">
                         <h4 class="bg-2">Save Money</h4>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
                     <div class="banner-features wow fadeIn animated hover-up">
-                        <img src="assets/imgs/theme/icons/feature-4.png" alt="">
+                        <img src="themes/mmz/assets/imgs/theme/icons/feature-4.png" alt="">
                         <h4 class="bg-4">Promotions</h4>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
                     <div class="banner-features wow fadeIn animated hover-up">
-                        <img src="assets/imgs/theme/icons/feature-5.png" alt="">
+                        <img src="themes/mmz/assets/imgs/theme/icons/feature-5.png" alt="">
                         <h4 class="bg-5">Happy Sell</h4>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
                     <div class="banner-features wow fadeIn animated hover-up">
-                        <img src="assets/imgs/theme/icons/feature-6.png" alt="">
+                        <img src="themes/mmz/assets/imgs/theme/icons/feature-6.png" alt="">
                         <h4 class="bg-6">24/7 Support</h4>
                     </div>
                 </div>
@@ -50,7 +52,7 @@
     <section class="banner-2 section-padding pb-0">
         <div class="container">
             <div class="banner-img banner-big wow fadeIn animated f-none">
-                <img src="assets/imgs/banner/banner-4.png" alt="">
+                <img src="themes/mmz/assets/imgs/banner/banner-4.png" alt="">
                 <div class="banner-text d-md-block d-none">
                     <h4 class="mb-15 mt-40 text-brand">Repair Services</h4>
                     <h1 class="fw-600 mb-20">We're an Apple <br>Authorised Service Provider</h1>
@@ -77,8 +79,8 @@
                         <div class="product-img-action-wrap">
                             <div class="product-img product-img-zoom">
                                 <a href="shop-product-right.html">
-                                    <img class="default-img" src="assets/imgs/shop/product-2-1.jpg" alt="">
-                                    <img class="hover-img" src="assets/imgs/shop/product-2-2.jpg" alt="">
+                                    <img class="default-img" src="themes/mmz/assets/imgs/shop/product-2-1.jpg" alt="">
+                                    <img class="hover-img" src="themes/mmz/assets/imgs/shop/product-2-2.jpg" alt="">
                                 </a>
                             </div>
                             <div class="product-action-1">
@@ -108,8 +110,8 @@
                         <div class="product-img-action-wrap">
                             <div class="product-img product-img-zoom">
                                 <a href="shop-product-right.html">
-                                    <img class="default-img" src="assets/imgs/shop/product-4-1.jpg" alt="">
-                                    <img class="hover-img" src="assets/imgs/shop/product-4-2.jpg" alt="">
+                                    <img class="default-img" src="themes/mmz/assets/imgs/shop/product-4-1.jpg" alt="">
+                                    <img class="hover-img" src="themes/mmz/assets/imgs/shop/product-4-2.jpg" alt="">
                                 </a>
                             </div>
                             <div class="product-action-1">
@@ -139,8 +141,8 @@
                         <div class="product-img-action-wrap">
                             <div class="product-img product-img-zoom">
                                 <a href="shop-product-right.html">
-                                    <img class="default-img" src="assets/imgs/shop/product-15-1.jpg" alt="">
-                                    <img class="hover-img" src="assets/imgs/shop/product-15-2.jpg" alt="">
+                                    <img class="default-img" src="themes/mmz/assets/imgs/shop/product-15-1.jpg" alt="">
+                                    <img class="hover-img" src="themes/mmz/assets/imgs/shop/product-15-2.jpg" alt="">
                                 </a>
                             </div>
                             <div class="product-action-1">
@@ -170,8 +172,8 @@
                         <div class="product-img-action-wrap">
                             <div class="product-img product-img-zoom">
                                 <a href="shop-product-right.html">
-                                    <img class="default-img" src="assets/imgs/shop/product-3-1.jpg" alt="">
-                                    <img class="hover-img" src="assets/imgs/shop/product-3-2.jpg" alt="">
+                                    <img class="default-img" src="themes/mmz/assets/imgs/shop/product-3-1.jpg" alt="">
+                                    <img class="hover-img" src="themes/mmz/assets/imgs/shop/product-3-2.jpg" alt="">
                                 </a>
                             </div>
                             <div class="product-action-1">
@@ -201,8 +203,8 @@
                         <div class="product-img-action-wrap">
                             <div class="product-img product-img-zoom">
                                 <a href="shop-product-right.html">
-                                    <img class="default-img" src="assets/imgs/shop/product-9-1.jpg" alt="">
-                                    <img class="hover-img" src="assets/imgs/shop/product-9-2.jpg" alt="">
+                                    <img class="default-img" src="themes/mmz/assets/imgs/shop/product-9-1.jpg" alt="">
+                                    <img class="hover-img" src="themes/mmz/assets/imgs/shop/product-9-2.jpg" alt="">
                                 </a>
                             </div>
                             <div class="product-action-1">
@@ -232,8 +234,8 @@
                         <div class="product-img-action-wrap">
                             <div class="product-img product-img-zoom">
                                 <a href="shop-product-right.html">
-                                    <img class="default-img" src="assets/imgs/shop/product-7-1.jpg" alt="">
-                                    <img class="hover-img" src="assets/imgs/shop/product-7-2.jpg" alt="">
+                                    <img class="default-img" src="themes/mmz/assets/imgs/shop/product-7-1.jpg" alt="">
+                                    <img class="hover-img" src="themes/mmz/assets/imgs/shop/product-7-2.jpg" alt="">
                                 </a>
                             </div>
                             <div class="product-action-1">
@@ -263,8 +265,8 @@
                         <div class="product-img-action-wrap">
                             <div class="product-img product-img-zoom">
                                 <a href="shop-product-right.html">
-                                    <img class="default-img" src="assets/imgs/shop/product-1-1.jpg" alt="">
-                                    <img class="hover-img" src="assets/imgs/shop/product-1-2.jpg" alt="">
+                                    <img class="default-img" src="themes/mmz/assets/imgs/shop/product-1-1.jpg" alt="">
+                                    <img class="hover-img" src="themes/mmz/assets/imgs/shop/product-1-2.jpg" alt="">
                                 </a>
                             </div>
                             <div class="product-action-1">

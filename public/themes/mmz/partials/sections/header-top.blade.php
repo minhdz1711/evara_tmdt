@@ -4,7 +4,7 @@
             <div class="col-xl-3 col-lg-4">
                 <div class="header-info">
                     <ul>
-                        <li><i class="fi-rs-smartphone"></i> <a href="#">(+01) - 2345 - 6789</a></li>
+                        <li><i class="fi-rs-smartphone"></i> <a href="#">{{ @$settings['website_phone'] }}</a></li>
                         <li><i class="fi-rs-marker"></i><a  href="page-contact.html">Our location</a></li>
                     </ul>
                 </div>
@@ -26,9 +26,9 @@
                         <li>
                             <a class="language-dropdown-active" href="#"> <i class="fi-rs-world"></i> English <i class="fi-rs-angle-small-down"></i></a>
                             <ul class="language-dropdown">
-                                <li><a href="#"><img src="assets/imgs/theme/flag-fr.png" alt="">Français</a></li>
-                                <li><a href="#"><img src="assets/imgs/theme/flag-dt.png" alt="">Deutsch</a></li>
-                                <li><a href="#"><img src="assets/imgs/theme/flag-ru.png" alt="">Pусский</a></li>
+                                <li><a href="#"><img src="themes/mmz/assets/imgs/theme/flag-fr.png" alt="">Français</a></li>
+                                <li><a href="#"><img src="themes/mmz/assets/imgs/theme/flag-dt.png" alt="">Deutsch</a></li>
+                                <li><a href="#"><img src="themes/mmz/assets/imgs/theme/flag-ru.png" alt="">Pусский</a></li>
                             </ul>
                         </li>
                         <li><i class="fi-rs-user"></i><a href="page-login-register.html">Log In / Sign Up</a></li>

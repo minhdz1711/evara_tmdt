@@ -8,7 +8,7 @@
                         <div class="d-md-flex d-block">
                             <div class="post-thumb d-flex mr-15">
                                 <a class="color-white" href="blog-post-fullwidth.html">
-                                    <img src="assets/imgs/blog/blog-2.jpg" alt="">
+                                    <img src="themes/mmz/assets/imgs/blog/blog-2.jpg" alt="">
                                 </a>
                             </div>
                             <div class="post-content">
@@ -32,7 +32,7 @@
                         <div class="d-md-flex d-block">
                             <div class="post-thumb d-flex mr-15">
                                 <a class="color-white" href="blog-post-fullwidth.html">
-                                    <img src="assets/imgs/blog/blog-1.jpg" alt="">
+                                    <img src="themes/mmz/assets/imgs/blog/blog-1.jpg" alt="">
                                 </a>
                             </div>
                             <div class="post-content">
@@ -58,7 +58,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="banner-img banner-1 wow fadeIn animated">
-                            <img src="assets/imgs/banner/banner-5.jpg" alt="">
+                            <img src="themes/mmz/assets/imgs/banner/banner-5.jpg" alt="">
                             <div class="banner-text">
                                 <span>Accessories</span>
                                 <h4>Save 17% on <br>Autumn Hat</h4>
@@ -68,7 +68,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="banner-img mb-15 wow fadeIn animated">
-                            <img src="assets/imgs/banner/banner-6.jpg" alt="">
+                            <img src="themes/mmz/assets/imgs/banner/banner-6.jpg" alt="">
                             <div class="banner-text">
                                 <span>Big Offer</span>
                                 <h4>Save 20% on <br>Women's socks</h4>
@@ -76,7 +76,7 @@
                             </div>
                         </div>
                         <div class="banner-img banner-2 wow fadeIn animated">
-                            <img src="assets/imgs/banner/banner-7.jpg" alt="">
+                            <img src="themes/mmz/assets/imgs/banner/banner-7.jpg" alt="">
                             <div class="banner-text">
                                 <span>Smart Offer</span>
                                 <h4>Save 20% on <br>Eardrop</h4>
